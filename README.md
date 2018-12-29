@@ -64,7 +64,7 @@ Its nonsense, all of it.
 
 Oh... and what about the mixed response where some responses come in html or plain text instead of valid json payloads?<br/>
 Well, yes you can say that is a bad implementation. Granted, but that exists only because transport/protocol and execution got mixed.
-Remove the assumption that there is an http protocol available and the html responses will most probable go away to.
+Remove the assumption that there is an http protocol available and the html responses will most probable go away too.
 
 We should not use status codes at all as those indicate the status of the transport and not the execution.
 
