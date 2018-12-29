@@ -2,7 +2,7 @@
 
 I have to call it something… we always do!
 
-Yeah Yeah it stands for "The-Anti-Rest-API" 
+Yeah Yeah it stands for "The-Anti-Rest-API" <br/>
 Lost 50% of readers right there... 45% will complain... 10% will give this some thought! 
 Wait, what? 105%? Ohh 5% will complain without reading... right! 
 
