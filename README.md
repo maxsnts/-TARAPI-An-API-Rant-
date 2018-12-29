@@ -1,22 +1,22 @@
-# “TARAPI” An API Rant!
+# “TARAPI” An API Rant! \
 
-I have to call it something… we always do!
+I have to call it something… we always do! \
 
-Yeah Yeah it stands for "The-Anti-Rest-API"
-Lost 50% of readers right there... 45% will complain... 10% will give this some thought!
-Wait, what? 105%? Ohh 5% will complain without reading... right!
+Yeah Yeah it stands for "The-Anti-Rest-API" \
+Lost 50% of readers right there... 45% will complain... 10% will give this some thought! \
+Wait, what? 105%? Ohh 5% will complain without reading... right! \
 
-Disclaimer: I will use a lot of "**you** do this... **you** did that..." 
-It is deliberate because i want to strike a nerve, to feel personal, uncomfortable even.
-However it is not, and never was, meant to be offensive.
-I have done some of the things that i complain here, so i'm not excluding myself from it.
+Disclaimer: I will use a lot of "**you** do this... **you** did that..." \
+It is deliberate because i want to strike a nerve, to feel personal, uncomfortable even. \
+However it is not, and never was, meant to be offensive. \
+I have done some of the things that i complain here, so i'm not excluding myself from it. \
 
-Let me put it out there, I think a REST API are crap.
-Sure… this will ruffle some feathers!
-Its just something that became popular and spread like wildfire.
+Let me put it out there, I think a REST API are crap. \
+Sure… this will ruffle some feathers! \
+Its just something that became popular and spread like wildfire. \
 
-At some point, someone proposed this new way to build an API, one that “_took advantage_” of the underlying structure of the http protocol.
-People liked it without question the biggest mistake in this assumption:
+At some point, someone proposed this new way to build an API, one that “_took advantage_” of the underlying structure of the http protocol. \
+People liked it without question the biggest mistake in this assumption: \
 “Why is the protocol being used to indicate what must be done or has been done? Just because http works that way? Is it reason enough?”
 
 Its bad for one main reason: **It conflates transport with execution**
