@@ -2,8 +2,8 @@
 
 I have to call it something… we always do!
 
-Yeah Yeah it stands for "The-Anti-Rest-API" 
-  Lost 50% of readers right there... 45% will complain... 10% will give this some thought! 
+Yeah Yeah it stands for "The-Anti-Rest-API" \\
+Lost 50% of readers right there... 45% will complain... 10% will give this some thought! 
 Wait, what? 105%? Ohh 5% will complain without reading... right! 
 
 Disclaimer: I will use a lot of "**you** do this... **you** did that..." 
