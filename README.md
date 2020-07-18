@@ -227,7 +227,8 @@ Everything else: Is your job to deal with it!<br/>
 
 (I'm sure this rant is not over)
 
-
+## In case you are feeling generous somehow...
+[![PayPal donate button](https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png)](https://www.paypal.me/maxsnts)
 
 
 
