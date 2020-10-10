@@ -16,7 +16,7 @@ Sure… this will ruffle some feathers!
 Its just something that became popular and spread like wildfire.    
 
 At some point, someone proposed this new way to build an API, one that “_took advantage_” of the underlying structure of the http protocol.    
-People liked it without question the biggest mistake in this assumption:    
+People liked it without questioning the biggest mistake in this assumption:    
 “Why is the protocol being used to indicate what must be done or has been done? Just because http works that way? Is it reason enough?”
 
 It is bad for one main reason: **It conflates transport with execution**   
@@ -45,10 +45,10 @@ Lets take it one step at a time, starting by the logical last one... the respons
 
 Do the codes mean anything? No, they do not. The same code can be used by the API or the server to indicate massively different things. We must almost always look at the payload to see what was done.
 
-From somewere on the interwebs...   
+From somewhere on the interwebs...   
 _“A 403 error response indicates that the client’s request is formed correctly, but the REST API refuses to honor it i.e. the user does not have the necessary permissions for the resource.”_
 
-Notice the error in the assumtion: _"request is formed correctly but the REST API refuses to honor it "_!    
+Notice the error in the assumption: _"request is formed correctly but the REST API refuses to honor it "_!    
 No, sorry, no. When you get a 403 form any API you can not assume this, ever.   
 The request may not have gotten to the API.   
 
@@ -59,7 +59,7 @@ Yes? Why the hell do we need the status codes for then?
 
 And don’t get me started on the 500… be honest, how many times did you see APIs responding with a 500 to indicate something went wrong with the stuff you sent?
 
-Some times you get a 500 and you have to go and see the payload to get what happened, but some times you get a 500 because the server craped itself and there is not even a valid payload.    
+Some times you get a 500 and you have to go and see the payload to get what happened, but some times you get a 500 because the server crapped itself and there is not even a valid payload.    
 Its nonsense, all of it.
 
 Oh... and what about the mixed response where some responses come in html or plain text instead of valid json payloads?   
@@ -128,7 +128,7 @@ Example: (and only that)
 Think of responses in a _parsable_ way. They will most definitely not be read by a Human so they need to be consistent.   
 Now, the payload would obviously be different from method to method, but anything outside of the _Payload_ json node should be the same between all methods.
 
-Consistency will even allow you to have some users working assyncronasly and some users, perhaps less technically proficient, working synchronously by sacrificing performance. All you need is a user setting or who knows the user could request sync or async when doing the request. (Assuming the inner workings of the API allow for it) This gives you versatility.
+Consistency will even allow you to have some users working asynchronously and some users, perhaps less technically proficient, working synchronously by sacrificing performance. All you need is a user setting or who knows the user could request sync or async when doing the request. (Assuming the inner workings of the API allow for it) This gives you versatility.
 
 ### Verbs and URLs
 
@@ -137,7 +137,7 @@ Just do it all with the payload.
 If you do, it will allow anything of the above, and you gain a few things even if you use it in http.  
 
 In REST, We need payload + Url + verb.  
-If you want to "save" the operation you need to save all of the above ans sync them.
+If you want to "save" the operation you need to save all of the above and sync them.
  
 In TARAPI... the payload itself describes all of the operation instead of only part of it.  
 Logging becomes simpler, and if needed, your internal tools can even reprocess those payloads later (redo actions, solve problems, run them in Dev) because they are complete, all the information is there.
@@ -196,7 +196,7 @@ It comes at no cost at all when compared with the problems you can avoid by elim
 
 - If the clients looses that record, he can just resend the Objects again and no duplicates will be created on your side.
 
-- If they can get a list of items from the API, they can easyly check if there is anything in there that should not be (by checking their ID) and delete it.
+- If they can get a list of items from the API, they can easily check if there is anything in there that should not be (by checking their ID) and delete it.
 
 Look, like it or not we are in the business of “support ticket elimination/prevention”.   
 And I am sure that solving the problem of the ExternalObjectID once on the API side is far better than forcing your clients, all of them, to do it.
@@ -214,13 +214,13 @@ Its all a POST:
 
 While we are in the topic of taking work from your users.   
 Anything you feel is particular to you... you should do it! Period. Sorry.   
-Before you feel like forcing your users to do something, ask if any of your competitours have no such requisite.
+Before you feel like forcing your users to do something, ask if any of your competitors have no such requisite.
 
 Example:   
 Why ask that all users remove \r\n from texts (!?) and send "BR" instead?   
 Do it on the API!   
 Well, this is a deeper problem...   
-I personaly think that saving "BR" in your database on a piece of text that is not Html is just dumb!    
+I personally think that saving "BR" in your database on a piece of text that is not Html is just dumb!    
 
 ### Summary
 
