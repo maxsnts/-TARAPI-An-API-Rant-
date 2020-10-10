@@ -220,7 +220,7 @@ Example:
 Why ask that all users remove \r\n from texts (!?) and send "BR" instead?   
 Do it on the API!   
 Well, this is a deeper problem...   
-I personaly thing that saving "BR" in your database on a piece of text that is not Html is just dumb!    
+I personaly think that saving "BR" in your database on a piece of text that is not Html is just dumb!    
 
 ### Summary
 
