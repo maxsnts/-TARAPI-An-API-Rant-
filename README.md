@@ -114,6 +114,7 @@ Example: (and only that)
 {
 	"ResponseFrom": "MethodSomething",
 	"Status": "OK", //or NOK codes 
+	"Date": "2021-12-12T10:10:10", //when this was generated, and always ISO format
 	"Errors": [ ... ], //Describing catastrophic errors
 	"Warnings": [ ... ], //Something to pay attention to but not catastrophic
 	"Info": [ { "All fine skipper!" } ], 
